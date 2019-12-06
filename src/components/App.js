@@ -11,13 +11,11 @@ const Root = styled.div`
   flex-direction: column;
 `;
 
-function App() {
-  return (
-    <Root>
-      <Nav />
-      <MainContainer />
-    </Root>
-  );
-}
+const App = () => (
+  <Root>
+    <Nav />
+    <MainContainer />
+  </Root>
+);
 
 export default App;
