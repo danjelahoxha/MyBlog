@@ -14,7 +14,7 @@ const App = () => (
     <GlobalStyles />
     <Root>
       <h1>It's a dark theme!</h1>
-      <footer></footer>
+      <footer>MIT</footer>
     </Root>
   </ThemeProvider>
 );
